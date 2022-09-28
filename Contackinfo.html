@@ -5,12 +5,20 @@
     <title>Contack</title>
   </head>
   <body>
+    <div align = "center">
     <p><h1>CONTACT INFO</h1></p>
     <p><span> 🆔 </span> ******</p>
     <p><span> 🏠 </span> Thailand</p>
     <p><span> 📞 </span> 09*-***-****</p>
-
-    <form>
+    </div>
+    <form class="" action="index.html" method="post">
+      <label>ชื่อ-นามสกุล</label>
+      <input type="text" name="name_suename" ><br>
+      <label>E-mail</label>
+      <input type="email" name="email" ><br>
+      <label>ข้อความที่ต้องการส่ง:</label><br>
+      <textarea name="message" rows="8" cols="80"></textarea><br>
+      <input type="submit" name="submit">
  <input type="button" value="Go back!" onclick="history.back()">
 </form>
   </body>
